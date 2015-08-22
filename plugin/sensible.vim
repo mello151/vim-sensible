@@ -27,7 +27,8 @@ set nrformats-=octal
 set ttimeout
 set ttimeoutlen=100
 
-set incsearch
+" I always forget to hit enter after finding the match
+" set incsearch 
 " Use <C-L> to clear the highlighting of :set hlsearch.
 if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
